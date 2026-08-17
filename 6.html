@@ -1,0 +1,59 @@
+<!-- All about forms -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <form action="/action.php">
+
+        USERNAME:<input type="text" placeholder ="Enter username"><br><br>
+    
+        PASSWORD:<input type ="password"placeholder="Enter password"><br><br>
+
+    SELECT CLASS:<input type="radio"value="class 11"name="class">  ClassXI
+<input type="radio"value="class 12"name="class">class XII <br><br>
+
+<!-- Using Label -->
+<label for="1">
+    Select your Gender:<input type="radio" value="male"name="gender"id="1">Male
+</label>
+<label for="2"> 
+ <input type="radio"value="female"name="gender"id=2>Female 
+</label>
+
+<!-- Checkbox -->
+ <br><br>
+ What is your faculty?
+ <label for="id1"><input type="checkbox"value="science"name="faculty"id="id1">SCIENCE
+    </label>
+ <label for="id2"><input type="checkbox"value="management"name="faculty"id="id2">MANAGEMENT
+    </label><br><br>Select Your city:
+<select name="city"id="city"placeholder="select city">
+    <option value=""></option>
+    <option value="ktm">KATHMANDU</option>
+    <option value="BKT">Bhaktapur</option>
+    <option value="kavre">kavre</option>
+    
+</select><br><br>
+<input type="button"name="button"value="button"><br><br>
+
+<!-- iframe tag -->
+<iframe width="400" height="315" src="https://www.youtube.com/embed/bP8ATWCvqzw?si=qPkWPiE_cCFNnubc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
+
+<video width="560" height="315" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br><br>
+<audio controls >
+    <source src="Bimbaakash.mp3"type="audio/mpeg">
+    Your browser doesnot support The audio element.
+</audio>
+</form>
+</body>
+ </html>
